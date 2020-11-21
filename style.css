@@ -109,6 +109,9 @@ h3 {
     display: block;
     border-radius: 10px;
     border: 2px solid #dadada;
+    border-right: 1px solid transparent;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     color: #3e3e3e;
     font-size: 18px;
     margin: 10px auto;
@@ -120,6 +123,7 @@ h3 {
 
 #input:focus {
     border: 2px solid #ef0722;
+    border-right: 1px solid transparent;
     transition: .3s ease;
 }
 
@@ -132,8 +136,6 @@ h3 {
     margin: 10px auto;
     outline: none;
     padding: 15px;
-    position: absolute;
-    right: 0;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
