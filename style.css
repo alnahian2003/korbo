@@ -87,7 +87,7 @@ h3 {
 
 .container {
     border-radius: 10px;
-    filter: drop-shadow(0 10px 15px #00000020);
+    filter: drop-shadow(0 10px 15px #00000010);
     display: flex;
     flex-flow: column;
     justify-content: center;
